@@ -1,0 +1,14 @@
+Name: Ragan p
+project: steganography 
+date:10/12/2025
+
+brief summary: this project is all about hiding any type of secret message text in an image, where only the person who has hidden the
+message in the image and other person whom the user wants to share the message knows what secret message is hidden the image.
+It is highly impossible to figure out the difference between the image where no secret message is there and the same image where
+message  text is hidden, it is mainly used in military, intelligence agencies, online banking and many more ways where encryption
+ is needed, the way this project works is user has a image and the user wants to hide the secret message inside the image
+ he will do it by changing the LSB bits of image RGB data ,and will keep a magic string so that only the user and another person 
+ whom the user wants to share the secret message will know the magic string which can be anything alphabets, number or combination
+ of both this part is called encoding ,when the user recives the image ,user has to enter the secret magic string to access 
+ the secret message hidden by  another user .once magic string entered the output is displayed .
+
